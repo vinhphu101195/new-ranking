@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Ranking</title>
+  </head>
+  <body>
+    <div class="app-container">
+      <nav class="nav-container">
+        <div class="nav-row">
+          <div class="nav-title">
+            <span class="nav-title-active">Nhận sao</span>
+            <span>Tặng kim cương</span>
+          </div>
+          <div class="nav-timeline">
+            <span class="nav-timeline-active"> 1 Giờ</span>
+            <span>7 Ngày</span>
+            <span>30 Ngày</span>
+          </div>
+        </div>
+      </nav>
+
+      <div class="body-container" id="body-container">
+        <div class="rank-1st">
+          <div class="up-img">
+            <i class="crown"></i>
+            <img
+              class="avatar-rank"
+              src="img/avatar.jpg"
+              alt="Girl in a jacket"
+            />
+            <i class="plus follow-btn"></i>
+          </div>
+          <div class="down-img">
+            <p class="avatar-name">Le Kha Ngan</p>
+            <span class="avatar-point"><i class="start"></i>49999</span>
+          </div>
+        </div>
+        <div class="rank-2nd">
+          <div class="up-img">
+            <i class="crown2"></i>
+            <img
+              class="avatar-rank"
+              src="img/avatar.jpg"
+              alt="Girl in a jacket"
+            />
+            <i class="plus follow-btn"></i>
+          </div>
+          <div class="down-img">
+            <p class="avatar-name">Le Kha Ngan</p>
+            <span class="avatar-point"><i class="start"></i>49999</span>
+          </div>
+        </div>
+        <div class="rank-3rd">
+          <div class="up-img">
+            <i class="crown2"></i>
+            <img
+              class="avatar-rank"
+              src="img/avatar.jpg"
+              alt="Girl in a jacket"
+            />
+            <i class="plus follow-btn"></i>
+          </div>
+          <div class="down-img">
+            <p class="avatar-name">Le Kha Ngan</p>
+            <span class="avatar-point"><i class="start"></i>49999</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="users-list">
+        <div class="user-list-background" id="user-list-background"></div>
+        <ul>
+          <li class="clearfix">
+            <p class="num">4</p>
+            <p class="pic">
+              <img class="user-list__avatar" src="img/avatar.jpg" alt="" />
+            </p>
+            <div class="info">
+              <p class="name">Mr Leo</p>
+              <p class="star">
+                <span>
+                  <i class="start"></i>
+                  <span class="txt">
+                    16020
+                  </span>
+                </span>
+              </p>
+            </div>
+            <div class="live-btn">
+              <i class="live-btn-image"></i>
+            </div>
+            <div class="button">
+              <div>
+                <!-- <button
+                        class={
+                          item.isFollowed
+                            ? "follow-row followed"
+                            : "follow-row"
+                        }
+                        onClick={this.follow}
+                        value={item.userId}
+                        data-follow={item.isFollowed}
+                      ></button> -->
+                <button class="follow-row"></button>
+              </div>
+            </div>
+          </li>
+          <li class="clearfix">
+            <p class="num">4</p>
+            <p class="pic">
+              <img class="user-list__avatar" src="img/avatar.jpg" alt="" />
+            </p>
+            <div class="info">
+              <p class="name">Mr Leo</p>
+              <p class="star">
+                <span>
+                  <i class="start"></i>
+                  <span class="txt">
+                    16020
+                  </span>
+                </span>
+              </p>
+            </div>
+            <div class="live-btn">
+              <i class="live-btn-image"></i>
+            </div>
+            <div class="button">
+              <div>
+                <!-- <button
+                          class={
+                            item.isFollowed
+                              ? "follow-row followed"
+                              : "follow-row"
+                          }
+                          onClick={this.follow}
+                          value={item.userId}
+                          data-follow={item.isFollowed}
+                        ></button> -->
+                <button class="follow-row"></button>
+              </div>
+            </div>
+          </li>
+          <li class="clearfix">
+            <p class="num">4</p>
+            <p class="pic">
+              <img class="user-list__avatar" src="img/avatar.jpg" alt="" />
+            </p>
+            <div class="info">
+              <p class="name">Mr Leo</p>
+              <p class="star">
+                <span>
+                  <i class="start"></i>
+                  <span class="txt">
+                    16020
+                  </span>
+                </span>
+              </p>
+            </div>
+            <div class="live-btn">
+              <i class="live-btn-image"></i>
+            </div>
+            <div class="button">
+              <div>
+                <!-- <button
+                          class={
+                            item.isFollowed
+                              ? "follow-row followed"
+                              : "follow-row"
+                          }
+                          onClick={this.follow}
+                          value={item.userId}
+                          data-follow={item.isFollowed}
+                        ></button> -->
+                <button class="follow-row"></button>
+              </div>
+            </div>
+          </li>
+          <li class="clearfix">
+            <p class="num">4</p>
+            <p class="pic">
+              <img class="user-list__avatar" src="img/avatar.jpg" alt="" />
+            </p>
+            <div class="info">
+              <p class="name">Mr Leo</p>
+              <p class="star">
+                <span>
+                  <i class="start"></i>
+                  <span class="txt">
+                    16020
+                  </span>
+                </span>
+              </p>
+            </div>
+            <div class="live-btn">
+              <i class="live-btn-image"></i>
+            </div>
+            <div class="button">
+              <div>
+                <!-- <button
+                          class={
+                            item.isFollowed
+                              ? "follow-row followed"
+                              : "follow-row"
+                          }
+                          onClick={this.follow}
+                          value={item.userId}
+                          data-follow={item.isFollowed}
+                        ></button> -->
+                <button class="follow-row"></button>
+              </div>
+            </div>
+          </li>
+          <li class="clearfix">
+            <p class="num">4</p>
+            <p class="pic">
+              <img class="user-list__avatar" src="img/avatar.jpg" alt="" />
+            </p>
+            <div class="info">
+              <p class="name">Mr Leo</p>
+              <p class="star">
+                <span>
+                  <i class="start"></i>
+                  <span class="txt">
+                    16020
+                  </span>
+                </span>
+              </p>
+            </div>
+            <div class="live-btn">
+              <i class="live-btn-image"></i>
+            </div>
+            <div class="button">
+              <div>
+                <!-- <button
+                          class={
+                            item.isFollowed
+                              ? "follow-row followed"
+                              : "follow-row"
+                          }
+                          onClick={this.follow}
+                          value={item.userId}
+                          data-follow={item.isFollowed}
+                        ></button> -->
+                <button class="follow-row"></button>
+              </div>
+            </div>
+          </li>
+          <li class="clearfix">
+            <p class="num">4</p>
+            <p class="pic">
+              <img class="user-list__avatar" src="img/avatar.jpg" alt="" />
+            </p>
+            <div class="info">
+              <p class="name">Mr Leo</p>
+              <p class="star">
+                <span>
+                  <i class="start"></i>
+                  <span class="txt">
+                    16020
+                  </span>
+                </span>
+              </p>
+            </div>
+            <div class="live-btn">
+              <i class="live-btn-image"></i>
+            </div>
+            <div class="button">
+              <div>
+                <!-- <button
+                          class={
+                            item.isFollowed
+                              ? "follow-row followed"
+                              : "follow-row"
+                          }
+                          onClick={this.follow}
+                          value={item.userId}
+                          data-follow={item.isFollowed}
+                        ></button> -->
+                <button class="follow-row"></button>
+              </div>
+            </div>
+          </li>
+          <li class="clearfix">
+            <p class="num">4</p>
+            <p class="pic">
+              <img class="user-list__avatar" src="img/avatar.jpg" alt="" />
+            </p>
+            <div class="info">
+              <p class="name">Mr Leo</p>
+              <p class="star">
+                <span>
+                  <i class="start"></i>
+                  <span class="txt">
+                    16020
+                  </span>
+                </span>
+              </p>
+            </div>
+            <div class="live-btn">
+              <i class="live-btn-image"></i>
+            </div>
+            <div class="button">
+              <div>
+                <!-- <button
+                          class={
+                            item.isFollowed
+                              ? "follow-row followed"
+                              : "follow-row"
+                          }
+                          onClick={this.follow}
+                          value={item.userId}
+                          data-follow={item.isFollowed}
+                        ></button> -->
+                <button class="follow-row"></button>
+              </div>
+            </div>
+          </li>
+          <li class="clearfix">
+            <p class="num">4</p>
+            <p class="pic">
+              <img class="user-list__avatar" src="img/avatar.jpg" alt="" />
+            </p>
+            <div class="info">
+              <p class="name">Mr Leo</p>
+              <p class="star">
+                <span>
+                  <i class="start"></i>
+                  <span class="txt">
+                    16020
+                  </span>
+                </span>
+              </p>
+            </div>
+            <div class="live-btn">
+              <i class="live-btn-image"></i>
+            </div>
+            <div class="button">
+              <div>
+                <!-- <button
+                          class={
+                            item.isFollowed
+                              ? "follow-row followed"
+                              : "follow-row"
+                          }
+                          onClick={this.follow}
+                          value={item.userId}
+                          data-follow={item.isFollowed}
+                        ></button> -->
+                <button class="follow-row"></button>
+              </div>
+            </div>
+          </li>
+          <li class="clearfix">
+            <p class="num">4</p>
+            <p class="pic">
+              <img class="user-list__avatar" src="img/avatar.jpg" alt="" />
+            </p>
+            <div class="info">
+              <p class="name">Mr Leo</p>
+              <p class="star">
+                <span>
+                  <i class="start"></i>
+                  <span class="txt">
+                    16020
+                  </span>
+                </span>
+              </p>
+            </div>
+            <div class="live-btn">
+              <i class="live-btn-image"></i>
+            </div>
+            <div class="button">
+              <div>
+                <!-- <button
+                          class={
+                            item.isFollowed
+                              ? "follow-row followed"
+                              : "follow-row"
+                          }
+                          onClick={this.follow}
+                          value={item.userId}
+                          data-follow={item.isFollowed}
+                        ></button> -->
+                <button class="follow-row"></button>
+              </div>
+            </div>
+          </li>
+          <li class="clearfix">
+            <p class="num">4</p>
+            <p class="pic">
+              <img class="user-list__avatar" src="img/avatar.jpg" alt="" />
+            </p>
+            <div class="info">
+              <p class="name">Mr Leo</p>
+              <p class="star">
+                <span>
+                  <i class="start"></i>
+                  <span class="txt">
+                    16020
+                  </span>
+                </span>
+              </p>
+            </div>
+            <div class="live-btn">
+              <i class="live-btn-image"></i>
+            </div>
+            <div class="button">
+              <div>
+                <!-- <button
+                          class={
+                            item.isFollowed
+                              ? "follow-row followed"
+                              : "follow-row"
+                          }
+                          onClick={this.follow}
+                          value={item.userId}
+                          data-follow={item.isFollowed}
+                        ></button> -->
+                <button class="follow-row"></button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script>
+      var header = document.getElementById("body-container");
+      var userList = document.getElementById("user-list-background");
+      window.onscroll = function (e) {
+        if (window.scrollY) {
+          if (60 - window.pageYOffset > 0) {
+            header.style.height = 56 - window.pageYOffset + "vh";
+            userList.style.opacity = 0.8;
+            userList.style["border-top-left-radius"] = 30 + "px";
+            userList.style["border-bottom-left-radius"] = 30 + "px";
+          } else if (60 - window.pageYOffset <= 4) {
+            userList.style.opacity = 1;
+            userList.style["border-radius"] = 0;
+          }
+        }
+      };
+    </script>
+  </body>
+</html>
