@@ -29,7 +29,7 @@ body:before {
   z-index: -10;
   background-image: url(./img/main-bg.png);
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -99,7 +99,7 @@ body:before {
   position: absolute;
   width: fit-content;
 
-  top: 102px;
+  top: 100px;
   left: 180px;
   transform: translate(-50%, -50%);
 }
@@ -369,7 +369,7 @@ body:before {
 }
 @media only screen and (min-width: 400px) {
   .rank-1st {
-    top: 130px;
+    top: 125px;
     left: 200px;
   }
   .rank-2nd {
