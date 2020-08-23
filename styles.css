@@ -8,7 +8,7 @@
 }
 
 body {
-  /* background-image: url(./img/main-bg.png);
+  /* background-image: url(https://evi.la/img//main-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   font-family: SFProText;
@@ -27,7 +27,7 @@ body:before {
   width: 100vw;
   height: 100vh;
   z-index: -10;
-  background-image: url(./img/main-bg.png);
+  background-image: url(https://evi.la/img/main-bg.png);
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
   -webkit-background-size: cover;
@@ -132,7 +132,7 @@ body:before {
   margin-bottom: -1px;
 }
 .start {
-  background: url("./img/star1\ 1.svg");
+  background: url(https://evi.la/img//img/star.svg);
   height: 12px;
   width: 12px;
   display: inline-block;
@@ -148,7 +148,7 @@ body:before {
   position: absolute;
   top: -8px;
   left: 6px;
-  background: url("./img/Fill\ 1.svg");
+  background: url(https://evi.la/img//img/crown1.svg);
   background-size: cover;
 }
 .crown2 {
@@ -158,11 +158,11 @@ body:before {
   position: absolute;
   top: -8px;
   left: 6px;
-  background: url("./img/crown2.svg");
+  background: url(https://evi.la/img//crown2.svg);
   background-size: cover;
 }
 .follow-btn {
-  background: url("./img/follow-btn.png");
+  background: url(https://evi.la/img//follow-btn.png);
   background-size: cover;
 }
 .plus {
@@ -309,7 +309,7 @@ body:before {
 .users-list ul li .follow-row {
   width: 18px;
   height: 18px;
-  background: url(./img/follow-btn.png) no-repeat;
+  background: url(https://evi.la/img//follow-btn.png) no-repeat;
   background-size: auto;
   background-size: contain;
   top: 50%;
@@ -322,7 +322,7 @@ body:before {
 }
 
 .users-list ul li .follow-row.followed {
-  background: url(./img/followed-btn.png) no-repeat;
+  background: url(https://evi.la/img//followed-btn.png) no-repeat;
   background-size: contain;
 }
 
@@ -336,7 +336,7 @@ body:before {
 }
 
 .users-list ul li .live-btn .live-btn-image {
-  background: url(./img/live-btn.png) no-repeat;
+  background: url(https://evi.la/img//live-btn.png) no-repeat;
   background-size: contain;
   width: 50px;
   height: 50px;
@@ -344,6 +344,9 @@ body:before {
 }
 
 @media only screen and (max-width: 350px) {
+  body {
+    font-size: 9px;
+  }
   .rank-1st {
     top: 90px;
     left: 158px;
@@ -368,16 +371,19 @@ body:before {
   }
 }
 @media only screen and (min-width: 400px) {
+  body {
+    font-size: 10px;
+  }
   .rank-1st {
     top: 125px;
     left: 200px;
   }
   .rank-2nd {
-    top: 125px;
+    top: 108px;
     left: 20px;
   }
   .rank-3rd {
-    top: 160px;
+    top: 155px;
     left: 270px;
   }
   .avatar-rank {
