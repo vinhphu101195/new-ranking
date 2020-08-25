@@ -132,7 +132,7 @@ body:before {
   margin-bottom: -1px;
 }
 .start {
-  background: url(https://evi.la/img//img/star.svg);
+  background: url(https://evi.la/img//star.svg);
   height: 12px;
   width: 12px;
   display: inline-block;
@@ -148,7 +148,7 @@ body:before {
   position: absolute;
   top: -8px;
   left: 6px;
-  background: url(https://evi.la/img//img/crown1.svg);
+  background: url(https://evi.la/img//crown1.svg);
   background-size: cover;
 }
 .crown2 {
